@@ -22,13 +22,13 @@ const App = () => {
       </div>
       <div className="category-container">
         <div className="category-body-container">
-          <h2>Men</h2>
+          <h2>Men's</h2>
           <p>Shop Now</p>
         </div>
       </div>
       <div className="category-container">
         <div className="category-body-container">
-          <h2>Women</h2>
+          <h2>Women's</h2>
           <p>Shop Now</p>
         </div>
       </div>
