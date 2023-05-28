@@ -1,12 +1,12 @@
 import { Outlet, Link} from "react-router-dom";
-import { Fragment, useContext } from "react";
+import { useContext } from "react";
 // img
 import logo from '../../assets/logo.svg';
-import { NavigationContainer, NavLink, 
-        NavLinksContainer, LogoContainer} from './navigation.styles.jsx';
+// import { NavigationContainer, NavLink, 
+        // NavLinksContainer, LogoContainer} from './navigation.styles.jsx';
 import { UserContext } from "../../contexts/user.context";
 import { signOutUser } from "../../utils/firebase/firebase.utils"; 
-import { signOut } from "firebase/auth";
+// import { signOut } from "firebase/auth";
 import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
 import { CartContext } from "../../contexts/cart.context";

@@ -2,11 +2,11 @@ import { createContext, useState, useEffect } from "react";
 
 const addCartItem = (cartItems, productToAdd) => {
     const existingCartItem = cartItems.find(
-        (cartItem) => cartItem.id == productToAdd.id
+        (cartItem) => cartItem.id === productToAdd.id
     );
 
     if (existingCartItem) {
-        return cartItems.map((cartItem) => cartItem.id == productToAdd.id ?
+        return cartItems.map((cartItem) => cartItem.id === productToAdd.id ?
             {...cartItem, quantity: cartItem.quantity + 1}
             : cartItem
         );
@@ -17,21 +17,21 @@ const addCartItem = (cartItems, productToAdd) => {
 
 const removeCartItem = (cartItems, cartItemToRemove) => {
     const existingCartItem = cartItems.find(
-        (cartItem) => cartItem.id == cartItemToRemove.id
+        (cartItem) => cartItem.id === cartItemToRemove.id
     );
     
-    if (existingCartItem.quantity == 1) {
-        return cartItems.filter(cartItem => cartItem.id != cartItemToRemove.id);
+    if (existingCartItem.quantity === 1) {
+        return cartItems.filter(cartItem => cartItem.id !== cartItemToRemove.id);
     }
 
-    return cartItems.map((cartItem) => cartItem.id == cartItemToRemove.id ?
+    return cartItems.map((cartItem) => cartItem.id === cartItemToRemove.id ?
             {...cartItem, quantity: cartItem.quantity - 1}
             : cartItem
     );
 }
 
 const clearCartItem = (cartItems, cartItemToClear) => {
-    return cartItems.filter(cartItem => cartItem.id != cartItemToClear.id);
+    return cartItems.filter(cartItem => cartItem.id !== cartItemToClear.id);
 }
 
 export const CartContext = createContext({
