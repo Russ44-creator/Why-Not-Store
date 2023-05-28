@@ -1,6 +1,7 @@
 import { Outlet, Link} from "react-router-dom";
 import { Fragment, useContext } from "react";
-import { ReactComponent as Toplogo} from '../../assets/logo.svg'
+// img
+import logo from '../../assets/logo.svg';
 import { NavigationContainer, NavLink, 
         NavLinksContainer, LogoContainer} from './navigation.styles.jsx';
 import { UserContext } from "../../contexts/user.context";
@@ -41,6 +42,7 @@ const Navigation = () => {
     //     </NavigationContainer>
     //     <Outlet />
     //   </Fragment>
+    <>
     <div className="navigation">
         <Link className="logo-container" to="/">
           <img className="logo" src={logo} alt="Logo" />
@@ -68,6 +70,8 @@ const Navigation = () => {
         </div>
         {isCartOpen && <CartDropdown />}
       </div>
+    <Outlet />
+    </>
     );
   };
 
