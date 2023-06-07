@@ -1,7 +1,6 @@
 # Why-Not-Store
 
-[Netlify deployment] (https://main--merry-druid-74a668.netlify.app/)
-[styled-components](https://styled-components.com/)
+[Netlify deployment](https://main--merry-druid-74a668.netlify.app/)
 
 Redux is utilized.
 
