@@ -1,6 +1,6 @@
 # Why-Not-Store
 
-Netlify deployment [https://main--merry-druid-74a668.netlify.app/] 
+[Netlify deployment] (https://main--merry-druid-74a668.netlify.app/)
 
 Redux is utilized.
 
