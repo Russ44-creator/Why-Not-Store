@@ -9,6 +9,8 @@ import { createUserDocumentFromAuth, onAuthStateChangedListener } from "./utils/
 import { setcurrentUser } from './store/user/user.action';
 import { useDispatch } from 'react-redux';
 
+import axios from 'axios'
+
 const App = () => {
   const dispatch = useDispatch();
 

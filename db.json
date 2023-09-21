@@ -1,0 +1,48 @@
+{
+  "Hats": [
+    {
+      "id": 1,
+      "name": "Brown Brim",
+      "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "name": "Blue Beanie",
+      "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+      "price": 18
+    }
+  ],
+  "Sneakers": [
+    {
+      "id": 3,
+      "name": "Adidas NMD",
+      "imageUrl": "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+      "price": 220
+    }
+  ],
+  "Jackets": [
+    {
+      "id": 4,
+      "name": "Black Jean Shearling",
+      "imageUrl": "https://i.ibb.co/XzcwL5s/black-shearling.png",
+      "price": 125
+    }
+  ],
+  "Womens": [
+    {
+      "id": 5,
+      "name": "Blue Tanktop",
+      "imageUrl": "https://i.ibb.co/7CQVJNm/blue-tank.png",
+      "price": 20
+    }
+  ],
+  "Mens": [
+    {
+      "id": 6,
+      "name": "Camo Down Vest",
+      "imageUrl": "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+      "price": 320
+    }
+  ]
+}

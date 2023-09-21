@@ -8,7 +8,7 @@ const CategoriesPreview = () => {
     const categoriesMap  = useSelector(selectCategoriesMap);
 
     return (
-        <Fragment>
+        <Fragment> 
             {Object.keys(categoriesMap).map((title) => {
                 const products = categoriesMap[title];
                 return (
