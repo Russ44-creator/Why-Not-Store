@@ -4,5 +4,5 @@ export const selectCategoriesMap = (state) =>
         acc[title.toLowerCase()] = items;
         return acc;
     }, {});
-
     
+
