@@ -13,6 +13,7 @@ const Category = () => {
     const categoriesMap  = useSelector(selectCategoriesMap);
     const [products, setProducts] = useState(categoriesMap[category]);
 
+    
     useEffect(() => {
         axios
           .get('http://localhost:3001/Hats')
