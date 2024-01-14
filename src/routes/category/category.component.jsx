@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 import { selectCategoriesMap } from "../../store/categories/category.selector";
 import axios from 'axios'
 
+
 const Category = () => {
     const { category } = useParams();
     // const { categoriesMap } = useContext(CategoriesContext);
